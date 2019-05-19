@@ -20,23 +20,81 @@ function startGame() {
     $("#total").html(total);
 }
 
-function addElement() {
-    score += fire;
-    score += wind;
-    score += leaf;
-    score += water;
+function addFire() {
+    total = total + fire;
+    $("#total").html(total);
+    console.log(total);
+    if (total > target) {
+        losses++;
+        $("#lossCounter").html(losses);
+        startGame();
+    }
+    else if (total == target) {
+        wins++;
+        $("#winCounter").html(wins);
+        startGame();
+    }
 }
 
+function addWind() {
+    total += wind;
+    $("#total").html(total);
+    console.log(total);
+    if (total > target) {
+        losses++;
+        $("#lossCounter").html(losses);
+        startGame();
+    }
+    else if (total == target) {
+        wins++;
+        $("#winCounter").html(wins);
+        startGame();
+    }
+}
 
+function addLeaf() {
+    total += leaf;
+    $("#total").html(total);
+    console.log(total);
+    if (total > target) {
+        losses++;
+        $("#lossCounter").html(losses);
+        startGame();
+    }
+    else if (total == target) {
+        wins++;
+        $("#winCounter").html(wins);
+        startGame();
+    }
+}
+
+function addWater() {
+    total += water;
+    $("#total").html(total);
+    console.log(total);
+    if (total > target) {
+        losses++;
+        $("#lossCounter").html(losses);
+        startGame();
+    }
+    else if (total == target) {
+        wins++;
+        $("#winCounter").html(wins);
+        startGame();
+    }
+}
 
 $("#fire").click(function() {
-    
+    addFire();
 })
 $("#water").click(function() {
+    addWater();
 })
 $("#wind").click(function() {
+    addWind();
 })
 $("#leaf").click(function() {
+    addLeaf();
 })
 
 startGame();
