@@ -4,7 +4,7 @@ This is a simple memory game where the user is given a target number and four el
 
 [Live Link](https://gbakins.github.io/crystal-collector/)
 
-![alt text](https://github.com/GBAkins/crystal-collector/blob/master/assets/images/main.jpg "Game")
+![alt text](https://github.com/GBAkins/crystal-collector/blob/master/assets/images/main.png "Game")
 
 ## Instructions
 
