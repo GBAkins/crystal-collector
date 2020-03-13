@@ -1,7 +1,27 @@
-# crystal-collector
-This game gives you a target number and four element icons to choose from. Each element has a random value at the beginning of each new round. Click the elements to figure out their values, and continue clicking them until you meet or exceed your target value. Your running total is shown as well as a total for wins and losses.
+# Element Sum Game
 
-### Live Link:
-https://gbakins.github.io/crystal-collector/
+This is a simple memory game where the user is given a target number and four elements to choose from, each assigned a random number. The user must hit the target number without going over to win.
 
-This game was built with HTML, CSS, JavaScript, and JQuery
+[Live Link](https://gbakins.github.io/crystal-collector/)
+
+![alt text](https://github.com/GBAkins/crystal-collector/tree/master/assets/images/main.PNG "Game")
+
+## Instructions
+
+Click each element to see what the value for each is. Try to memorize their values and continue clicking them to add to your current total. 
+
+## Author
+
+Gavin Akins
+
+gavinakins29@gmail.com
+
+[My GitHub](https://github.com/GBAkins "My GitHub")
+
+[My LinkedIn](https://www.linkedin.com/in/gavin-akins-793806101/ "My LinkedIn")
+
+## Built With
+- HTML
+- CSS
+- JavaScript
+- JQuery
